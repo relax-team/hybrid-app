@@ -1,0 +1,19 @@
+{
+  "esversion": 6,
+  "asi": true,  //禁止缺少分号警告
+  "undef": true,  //变量未定义
+  "varstmt": true, //禁止使用var声明变量
+  "freeze": true, //禁止重写原生对象的原型列如 Array, Date等
+  "expr": true,   //允许使用表达式，一般的使用函数调用。
+  "globals": {
+    "__dirname": true,
+    "require": true,
+    "define": true,
+    "module": true,
+    "export": true,
+    "window": true,
+    "console": true,
+    "Vue": true,
+    "weex": true
+  }
+}
